@@ -1,9 +1,13 @@
 import Home from "../pages/Home";
-import Detail from "../pages/Detail";
-import Upload from "../pages/Upload";
+import Product from "../pages/Product";
+import ProductDetail from "../pages/ProductDetail";
+import Order from "../pages/Order";
+import OrderDetail from './../pages/OrderDetail/index';
 
 export const publicRoutes = [
   { path: "/", component: Home },
-  { path: "/detail", component: Detail },
-  { path: "/upload", component: Upload, layout: null },
+  { path: "/product", component: Product },
+  { path: "/product/:id", component: ProductDetail },
+  { path: "/order", component: Order },
+  { path: "/order/:id", component: OrderDetail },
 ];
