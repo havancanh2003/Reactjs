@@ -9,7 +9,7 @@ const cx = className.bind(style);
 function Header() {
   return (
     <header className={cx("wrapper")}>
-      <div className={cx("logo")}>Logo</div>
+      <div className={cx("logo")}><img src="https://geneat.vn/wp-content/uploads/2024/01/Full_cr-1400x210.png" alt=""></img></div>
       <nav className={cx("nav")}>
         <ul>
           <li>
