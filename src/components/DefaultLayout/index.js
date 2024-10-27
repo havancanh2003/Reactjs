@@ -1,12 +1,10 @@
 import Header from "./Header";
-import Footer from "./Footer";
 
 function DefaultLayout({ children }) {
   return (
     <div>
       <Header />
-      <div className="container">{children}</div>
-      <Footer />
+      <div style={{ padding: "0 5%" }} className="container">{children}</div>
     </div>
   );
 }

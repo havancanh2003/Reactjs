@@ -1,0 +1,55 @@
+// src/components/AddProductModal.scss
+
+.add-product-modal {
+    width: 500px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    content: {
+        padding: 20px;
+        border-radius: 5px;
+        background: #fff;
+        max-width: 500px;
+        margin: auto;
+    }
+    .btn-create{
+        padding: 10px 20px;
+        color: #fff;
+        border-radius: 5px;
+        width: fit-content;
+        height: fit-content;
+        border: none;
+        background-color: #6C7ADF;
+        margin-bottom: 5px;
+        cursor: pointer;
+        margin-right: 5px;
+    }
+}
+
+.modal-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    input, select {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+}
